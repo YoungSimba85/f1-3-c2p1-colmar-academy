@@ -1,0 +1,142 @@
+.container{
+  margin: 0 auto;
+  max-width: 480px;
+  background-color: #DAA520;
+  border: 1px solid red;
+  display: flex;
+  flex-direction:column;
+}
+
+h3, h1, h2{
+  color: white;
+  font-family: arial;
+}
+
+p, a{
+  color: #051928;
+  font-family: arial;
+}
+/*--header--*/
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+header a{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/*--mainimage--*/
+
+img{
+  width: 100%;
+}
+
+/*--pitch--*/
+
+.pitch{
+  background-color: #051928;
+}
+
+.pitch h1{
+  margin-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.pitch h3{
+  margin-bottom: 24px;
+  margin-left: 16px;
+}
+
+.starthere{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DAA520;
+  width: 430px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  height: 40px;
+}
+
+.starthere h3{
+  color:#051928;
+}
+
+
+/*--info--*/
+
+.info{
+  width: 480px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info img{
+  width: 448px;
+}
+
+.one{
+  margin-top: 16px
+}
+
+.class{
+  margin-bottom:64px;
+}
+
+/*--startlearning--*/
+
+.startlearning{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  background-color: #051928;
+  width: 448px;
+  height: 60px;
+  margin-bottom: 8px;
+}
+
+.course h2{
+  margin-left: 16px;
+  color: #DAA520;
+}
+
+
+/*--thesis--*/
+
+.thesis{
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+video{
+  position: relative;
+  bottom: 80px;
+}
+
+.title{
+  margin-top: 64px;
+}
+
+.title h1{
+  text-align: center;
+}
+
+/*--footer--*/
+
+footer p{
+  text-align:center;
+}

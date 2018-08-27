@@ -1,0 +1,332 @@
+/*--container--*/
+.container{
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: #051928;
+max-width: 1200px;
+margin:0 auto;
+}
+
+
+p{
+  font-size: 18px;
+  font-family: arial;
+  color: #051928;
+}
+
+h1{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  font-family: arial;
+}
+
+h2{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: arial;
+  color: white;
+}
+
+h3{
+  font-size: 16;
+  color: white;
+  font-family: arial;
+}
+/*--header--*/
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #DAA520;
+  height: 64px;
+  width: 100%;
+  border: 1px solid #051928;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: 64px;
+  margin-left: 20px
+}
+
+.logo p{
+  font-size: 25px;
+}
+
+.header img{
+  width:40px;
+}
+
+
+.login {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  margin-right: 20px;
+}
+
+.login span{
+  margin-left: 16px;
+}
+
+.login a{
+  text-decoration: none;
+  color: #051928;
+}
+
+/*--section1-=-*/
+
+.section1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #051928;
+}
+
+.section1 img{
+  width: 60%;
+  height: auto;
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 32px
+}
+
+.starthere{
+  background-color:#DAA520;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.starthere p{
+  margin-top:8px;
+  margin-bottom: 8px;
+  color: #051928;
+  font-weight: bold;
+}
+
+.sec1heading{
+  margin-left: 24px;
+}
+/*--section2--*/
+
+.section2 {
+  background-color: #DAA520;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  min-width: 100%;
+  border-left: 1px solid #051928;
+}
+
+.s2left{
+  align-items: flex-start;
+}
+
+.s2left img{
+  width: 93%;
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 32px;
+}
+
+.s2left h1{
+  color:white;
+  margin-left: 24px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.s2left p{
+  margin-left: 24px;
+  line-height: 1.5;
+  width: 82%;
+  font-size: 16px;
+  color:#051928;
+}
+
+.title {
+  margin-top: 40px;
+  margin-bottom:32px
+}
+
+.s2right{
+  border-left: 1px solid #051928;
+  border-right: 1px solid #051928;
+  width: 635px;
+}
+
+.orientation, .Ourguestlecure, .ourcampus {
+  display: flex;
+  align-items: center;
+}
+
+.orientation p, .Ourguestlecure p, .ourcampus p{
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 8px;
+  color: #051928;
+}
+
+.orientation img {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.orientation{
+  border-bottom: 2px solid #051928;
+}
+
+.ourcampus{
+  border-top: 2px solid #051928;
+}
+
+
+.Ourguestlecure img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.Ourguestlecure {
+  background-color: #051928;
+}
+
+.Ourguestlecure h2{
+  color: white;
+}
+
+.Ourguestlecure p, a{
+  color: #DAA520;
+}
+
+.ourcampus img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.s2right img{
+  width: 150px;
+  height: 150px;
+}
+
+.verbage {
+  margin-left: 10px;
+}
+
+.orientation a, .ourcampus a{
+  color: #051928;
+}
+
+/*--section3--*/
+
+.section3 {
+  width: 100%;
+}
+
+.section3 h1{
+  text-align: center;
+  color: white;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.courses {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 24px;
+  margin-bottom: 32px;
+  width: 26%;
+  height: 375px;
+}
+
+.course img{
+width: 100%;
+height: auto;
+}
+
+.course p, h2{
+  margin-left: 16px;
+}
+
+.detail {
+  background-color: #DAA520;
+  width: 100%;
+}
+
+/*--section4--*/
+
+.thesis{
+  width: 1200px;
+  background-color:  #DAA520;
+  border-left: 1px solid #051928;
+  border-right: 1px solid #051928;
+}
+
+.thesis h1{
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.section4 {
+  display: flex;
+  border-left: 1px solid #051928;
+  border-right: 1px solid #051928;
+  width: 100%;
+  background-color:  #DAA520;
+}
+
+.s4left{
+  position: relative;
+  bottom: 50px;
+  margin-left: 16px;
+}
+
+.fisma{
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.one {
+  background-color: #051928;
+}
+
+.one p{
+  color: #DAA520;
+}
+
+.fisma img{
+  width: 30%;
+  margin: 16px;
+}
+
+/*--footer*/
+
+.footer{
+  width: 100%;
+  background-color: #DAA520;
+  text-align: left;
+  font-size: 16px;
+  font-family: Arial;
+  border: 1px solid #051928;
+}
+
+.footer p{
+  margin-left: 24px;
+  margin-bottom: 30px;
+}
